@@ -79,7 +79,7 @@ homelab-active-directory/
 A Windows Server 2019 machine was promoted to a domain controller for the `remmy.local` forest. Static addressing and core AD DS configuration were completed to support domain services.
 
 ### 2. Department and Access Design
-Users were grouped by department such as IT, HR, and Sales. Organizational Units and security groups were used to reflect a simple business structure and support access control.
+Users were grouped by department such as IT, HR, Finance, and Sales. Organizational Units and security groups were used to reflect a simple business structure and support access control.
 
 ### 3. File Sharing
 A central shared folder was created and exposed to domain users. Both share permissions and NTFS permissions were configured and tested from a domain-joined Windows client.
