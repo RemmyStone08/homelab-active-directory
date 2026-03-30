@@ -1,96 +1,49 @@
-\# Active Directory - Departments and Access Control
+# Departments and Access Control
 
-
-
-\## Objective
-
+## Objective
 Organize users into departments and control access to resources using Active Directory.
 
+## Departments Created
+- IT
+- HR
+- Sales
 
+## Organizational Units (OUs)
+Separate OUs were created for each department:
+- `IT`
+- `HR`
+- `Sales`
 
-\## Departments Created
+## Users
+Example users were created and assigned to departments:
+- John → IT
+- Sarah → HR
+- Sales user → Sales
 
-\- IT
+## Group Strategy
+A basic Role-Based Access Control (RBAC) approach was used.
 
-\- HR
+### Security Groups
+- `IT_Group`
+- `HR_Group`
+- `Sales_Group`
 
-\- Sales
+### Assignment Process
+- Users were added to the group that matched their department
+- Permissions were assigned to groups instead of directly to users
 
+## Access Control
+Folder permissions were configured so that:
+- IT users could access IT resources
+- HR users could access HR resources
+- Sales users could access Sales resources
 
+## Testing
+- Signed in as different users
+- Verified that access matched each department
+- Confirmed users could not access data outside their own department
 
-\## Organizational Units (OUs)
-
-Created separate OUs for each department:
-
-\- IT OU
-
-\- HR OU
-
-\- Sales OU
-
-
-
-\## Users
-
-Created users and assigned them to departments:
-
-\- John → IT
-
-\- Sarah → HR
-
-\- (Add your actual users if different)
-
-
-
-\## Group Strategy
-
-Used a basic Role-Based Access Control (RBAC) model:
-
-
-
-\- Created security groups per department:
-
-&#x20; - IT\_Group
-
-&#x20; - HR\_Group
-
-&#x20; - Sales\_Group
-
-
-
-\- Added users to their respective groups
-
-
-
-\## Access Control
-
-Configured folder permissions so that:
-
-\- IT users can access IT resources
-
-\- HR users can access HR resources
-
-\- Sales users can access Sales resources
-
-
-
-\## Testing
-
-\- Logged in as different users
-
-\- Verified access is restricted based on department
-
-\- Confirmed users cannot access other departments’ data
-
-
-
-\## Key Learning
-
-\- How to structure users using OUs
-
-\- Importance of security groups
-
-\- Basic implementation of RBAC (Role-Based Access Control)
-
-\- Separation of access based on job role
-
+## Key Learnings
+- OUs help organize domain objects clearly
+- Security groups simplify permission management
+- RBAC makes access easier to scale and maintain

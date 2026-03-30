@@ -1,66 +1,44 @@
-Active Directory Setup - DC01
+# Active Directory Setup
 
+## Objective
+Set up a Windows Server 2019 domain controller and configure Active Directory Domain Services for a lab environment.
 
+## Server Details
 
-\# Objective
+| Item | Value |
+|---|---|
+| Hostname | `DC01` |
+| Server OS | Windows Server 2019 |
+| Domain | `remmy.local` |
+| Platform | VirtualBox |
 
-Set up a Windows Server 2019 Domain Controller and configure Active Directory for a lab environment.
+## Steps Performed
 
+### 1. Installed Windows Server 2019
+- Installed the operating system in VirtualBox
+- Assigned a static IP address
+- Confirmed basic network connectivity
 
+### 2. Installed Active Directory Domain Services
+- Opened **Server Manager**
+- Added the **Active Directory Domain Services** role
+- Completed the required installation steps
 
-\# Steps Performed
+### 3. Promoted the Server to a Domain Controller
+- Created a new forest: `remmy.local`
+- Set the Directory Services Restore Mode (DSRM) password
+- Completed domain controller promotion
+- Rebooted the server
 
+### 4. Verified the Deployment
+- Confirmed domain functionality after restart
+- Opened **Active Directory Users and Computers**
+- Verified the initial domain structure
 
+## Result
+A working Windows Server domain controller was successfully deployed and configured for the lab.
 
-\## 1. Installed Windows Server 2019
-
-\- Installed OS in VirtualBox
-
-\- Assigned static IP address
-
-
-
-\## 2. Installed Active Directory Domain Services
-
-\- Opened Server Manager
-
-\- Added AD DS role
-
-\- Completed installation
-
-
-
-\## 3. Promoted Server to Domain Controller
-
-\- Created new forest: remmy.local
-
-\- Set Directory Services Restore Mode password
-
-\- Completed promotion and reboot
-
-
-
-\## 4. Verified Domain Setup
-
-\- Confirmed domain functionality
-
-\- Opened Active Directory Users and Computers
-
-\- Verified domain structure
-
-
-
-\# Result
-
-Successfully created a working domain controller with Active Directory configured.
-
-
-
-\# Key Learnings
-
-\- Importance of DNS in domain environments
-
-\- Domain controller setup process
-
-\- Role of AD DS in enterprise networks
-
+## Key Learnings
+- DNS is critical in domain environments
+- AD DS provides centralized identity and access management
+- Promoting a domain controller requires careful planning around naming and networking
