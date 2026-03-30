@@ -30,6 +30,7 @@ A basic Role-Based Access Control (RBAC) approach was used.
 - `IT_Group`
 - `HR_Group`
 - `Sales_Group`
+- `Finance_Group`
 
 ### Assignment Process
 - Users were added to the group that matched their department
