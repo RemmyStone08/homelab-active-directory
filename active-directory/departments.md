@@ -7,18 +7,21 @@ Organize users into departments and control access to resources using Active Dir
 - IT
 - HR
 - Sales
+- Finance
 
 ## Organizational Units (OUs)
 Separate OUs were created for each department:
 - `IT`
 - `HR`
 - `Sales`
+- `Finance`
 
 ## Users
 Example users were created and assigned to departments:
-- John → IT
-- Sarah → HR
-- Sales user → Sales
+- Remeldo RG. Stone → IT
+- Remmy Stone → HR
+- Robyn Marks → Sales
+- Eniah ES. Stone → Finance
 
 ## Group Strategy
 A basic Role-Based Access Control (RBAC) approach was used.
