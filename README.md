@@ -107,4 +107,4 @@ By completing this lab, I gained hands-on practice with:
 
 ## Author
 
-Created by **Remmy Stone** as part of a personal homelab and IT skills development portfolio.
+Created by **Remeldo Stone** as part of a personal homelab and IT skills development portfolio.
