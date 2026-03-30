@@ -6,6 +6,10 @@ A portfolio project documenting a Windows Server home lab built to practice **Ac
 
 This lab was built to simulate a small business domain environment using a Windows Server domain controller, Windows 10 client machines, and Ubuntu Linux. The goal was to understand how identity, access, policies, and shared resources are managed in a centralized network.
 
+## Lab Design Approach
+
+To make the environment more realistic and easier to manage, I modeled users after familiar people in my home environment and assigned each one a business role within the lab. This helped simulate a small company structure with department-based access, role-based permissions, and user-specific policy behavior while keeping the setup memorable and practical to administer.
+
 ## Objectives
 
 - Build and configure a domain controller
