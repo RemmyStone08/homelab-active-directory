@@ -105,6 +105,29 @@ By completing this lab, I gained hands-on practice with:
 - Include a network diagram of the lab
 - Document DNS, DHCP, and event log monitoring in more detail
 
+## Skills Demonstrated
+
+- Active Directory Domain Services (AD DS)
+- DNS configuration and troubleshooting
+- Windows Server administration
+- Client domain joining and authentication
+- File sharing and NTFS permissions
+- Linux integration with Windows (CIFS/SMB)
+- Network troubleshooting (DNS, connectivity issues)
+
+## Lab Architecture
+
+- DC01 (Windows Server 2019) – Domain Controller, DNS
+- Windows 10 VM – Domain client
+- Ubuntu Machine – Linux client integrated via SMB
+
+## Challenges & Fixes
+
+- DNS failure: Could ping IP but not hostname → fixed by correcting DNS settings
+- Domain join failure: Caused by time mismatch → fixed by syncing system time
+- Intermittent connectivity: Identified as VirtualBox bridged instability
+- Linux share access: Resolved CIFS mount and permission issues
+
 ## Author
 
 Created by **Remeldo Stone** as part of a personal homelab and IT skills development portfolio.
