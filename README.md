@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/AD-banner.png" width="100%" />
+</p>
 # Home Lab Active Directory
 
 A portfolio project documenting a Windows Server home lab built to practice **Active Directory**, **Group Policy**, **file sharing**, and **basic Linux integration** in a virtualized environment.
