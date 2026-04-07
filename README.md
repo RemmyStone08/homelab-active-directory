@@ -28,7 +28,7 @@ To make the environment more realistic and easier to manage, I modeled users aft
 | Component | Details |
 |---|---|
 | Hypervisor | VirtualBox |
-| Server OS | Windows Server 2019 |
+| Server OS | Windows Server 2022 |
 | Client OS | Windows 10 |
 | Linux OS | Ubuntu |
 | Scripting | Bash |
@@ -80,7 +80,7 @@ homelab-active-directory/
 ## Highlights
 
 ### 1. Domain Controller Deployment
-A Windows Server 2019 machine was promoted to a domain controller for the `remmy.local` forest. Static addressing and core AD DS configuration were completed to support domain services.
+A Windows Server 2022 machine was promoted to a domain controller for the `remmy.local` forest. Static addressing and core AD DS configuration were completed to support domain services.
 
 ### 2. Department and Access Design
 Users were grouped by department such as IT, HR, Finance, and Sales. Organizational Units and security groups were used to reflect a simple business structure and support access control.
@@ -121,7 +121,7 @@ By completing this lab, I gained hands-on practice with:
 
 ## Lab Architecture
 
-- DC01 (Windows Server 2019) – Domain Controller, DNS
+- DC01 (Windows Server 2022) – Domain Controller, DNS
 - Windows 10 VM – Domain client
 - Ubuntu Machine – Linux client integrated via SMB
 
