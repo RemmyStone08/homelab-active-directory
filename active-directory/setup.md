@@ -1,21 +1,21 @@
 # Active Directory Setup
 
 ## Objective
-Set up a Windows Server 2019 domain controller and configure Active Directory Domain Services for a lab environment.
+Set up a Windows Server 2022 domain controller and configure Active Directory Domain Services for a lab environment.
 
 ## Server Details
 
 | Item | Value |
 |---|---|
 | Hostname | `DC01` |
-| Server OS | Windows Server 2019 |
+| Server OS | Windows Server 2022 |
 | Domain | `remmy.local` |
-| Platform | VirtualBox |
+| Platform | TestBench Laptop |
 
 ## Steps Performed
 
-### 1. Installed Windows Server 2019
-- Installed the operating system in VirtualBox
+### 1. Installed Windows Server 2022
+- Installed the operating system on a testing laptop. An old Dell Laptop I had lying around.
 - Assigned a static IP address
 - Confirmed basic network connectivity
 
